@@ -7,5 +7,9 @@ class Users extends CI_Controller
     {
         $this->load->view('index');
     }
+    public function more()
+    {
+        $this->load->view('plus');
+    }
 
 }

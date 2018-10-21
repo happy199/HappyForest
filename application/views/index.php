@@ -57,7 +57,8 @@
           <li><a href="#screenshots">Album Photo</a></li>
           <li><a href="#team">Notre Equipe</a></li>
           <li><a href="#pricing">Grille Tarifaire</a></li>
-          <li><a href="#blog">En Savoir Encore Plus</a></li>
+          <li><a href="#blog">Nouveautés</a></li>
+          <li><a href="<?php echo base_url()?>index.php/Users/more">En Savoir Encore Plus</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
@@ -108,7 +109,10 @@
             <img src="<?php echo base_url()?>assets/img/svg/cloud.svg" alt="img" class="img-fluid">
             <h4>Respect de l'environnement</h4>
             <p>Le dispositif Happy Forest est conçu de sorte à avoir pour utilser les rayons solaire comme source principale d'énergie. Ainsi durant la journée le dispositif émmagasine une quantité assez importante d'énergie provenant du soleil qu'il utilise une fois la nuit tombée pour lancer les différents processus pris en pour lesquels il à été conçu. Le disponitif est conçu de manière à etre totalement adapté à l'environnement forestier pour ne pas constitué une nuance pour les espèces forestieres.</p>
-            <a href="#">Lire plus</a>
+            <a href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Lire plus</a>
+            <p class="collapse" id="collapseExample">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </p>
 
           </div>
         </div>
@@ -148,7 +152,7 @@
       <div class="row justify-content-center">
 
         <div class="col-md-5 col-lg-3">
-          <img src="<?php echo base_url()?>assets/img/about-img.png" alt="About">
+          <img src="<?php echo base_url()?>assets/img/img3.png" alt="About">
         </div>
 
         <div class="col-md-7 col-lg-5">
@@ -241,15 +245,23 @@
     <div class="container">
       <div class="owl-carousel owl-theme">
 
-        <div><img src="<?php echo base_url()?>assets/img/screen/1.jpg" alt="img"></div>
-        <div><img src="<?php echo base_url()?>assets/img/screen/2.jpg" alt="img"></div>
-        <div><img src="<?php echo base_url()?>assets/img/screen/3.jpg" alt="img"></div>
-        <div><img src="<?php echo base_url()?>assets/img/screen/4.jpg" alt="img"></div>
-        <div><img src="<?php echo base_url()?>assets/img/screen/5.jpg" alt="img"></div>
-        <div><img src="<?php echo base_url()?>assets/img/screen/6.jpg" alt="img"></div>
-        <div><img src="<?php echo base_url()?>assets/img/screen/7.jpg" alt="img"></div>
-        <div><img src="<?php echo base_url()?>assets/img/screen/8.jpg" alt="img"></div>
-        <div><img src="<?php echo base_url()?>assets/img/screen/9.jpg" alt="img"></div>
+        <div><img src="<?php echo base_url()?>assets/img/screen/1.png" alt="img"></div>
+        <div><img src="<?php echo base_url()?>assets/img/screen/2.png" alt="img"></div>
+        <div><img src="<?php echo base_url()?>assets/img/screen/3.png" alt="img"></div>
+        <div><img src="<?php echo base_url()?>assets/img/screen/4.png" alt="img"></div>
+        <div><img src="<?php echo base_url()?>assets/img/screen/4-1.png" alt="img"></div>
+        <div><img src="<?php echo base_url()?>assets/img/screen/5.png" alt="img"></div>
+        <div><img src="<?php echo base_url()?>assets/img/screen/5-1.png" alt="img"></div>
+        <div><img src="<?php echo base_url()?>assets/img/screen/6.png" alt="img"></div>
+        <div><img src="<?php echo base_url()?>assets/img/screen/7.png" alt="img"></div>
+        <div><img src="<?php echo base_url()?>assets/img/screen/8.png" alt="img"></div>
+        <div><img src="<?php echo base_url()?>assets/img/screen/base1.jpg" alt="img" style="height:450px; weight : 200px"></div>
+        <div><img src="<?php echo base_url()?>assets/img/screen/base2.jpg" alt="img" style="height:450px; weight : 200px"></div>
+        <div><img src="<?php echo base_url()?>assets/img/screen/poto3.jpg" alt="img" style="height:450px; weight : 200px"></div>
+        <div><img src="<?php echo base_url()?>assets/img/screen/poto1.jpg" alt="img" style="height:450px; weight : 200px"></div>
+        <div><img src="<?php echo base_url()?>assets/img/screen/poto2.jpg" alt="img" style="height:450px; weight : 200px"></div>
+        <div><img src="<?php echo base_url()?>assets/img/screen/poto3.jpg" alt="img" style="height:450px; weight : 200px"></div>
+        <div><img src="<?php echo base_url()?>assets/img/screen/poto4.jpg" alt="img" style="height:450px; weight : 200px"></div>
 
       </div>
     </div>
@@ -487,7 +499,7 @@
                 <li><b></b> Assistance à distance</li>
               </ul>
               <div class="table_btn">
-                <a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Commander Maintenant</a>
+                <a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Réserver</a>
               </div>
             </div>
           </div>
@@ -504,7 +516,7 @@
                 <li><b></b> Assistance à distance</li>
               </ul>
               <div class="table_btn">
-                <a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Commander Maintenant</a>
+                <a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Réserver</a>
               </div>
             </div>
           </div>
@@ -521,7 +533,7 @@
                 <li><b></b> Assistance à distance</li>
               </ul>
               <div class="table_btn">
-                <a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Commander maintenant</a>
+                <a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Réserver</a>
               </div>
             </div>
           </div>
@@ -538,7 +550,7 @@
                 <li><b></b> Assistance à distance</li>
               </ul>
               <div class="table_btn">
-                <a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Commander </a>
+                <a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Réserver </a>
               </div>
             </div>
           </div>
@@ -793,6 +805,7 @@
   <!-- JavaScript Libraries -->
   <script src="<?php echo base_url()?>assets/lib/jquery/jquery.min.js"></script>
   <script src="<?php echo base_url()?>assets/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="<?php echo base_url()?>assets/lib/jquery/jquery.collapsible.min.js"></script>
   <script src="<?php echo base_url()?>assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="<?php echo base_url()?>assets/lib/superfish/hoverIntent.js"></script>
   <script src="<?php echo base_url()?>assets/lib/superfish/superfish.min.js"></script>
